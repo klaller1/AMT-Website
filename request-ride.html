@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Ride | American Medical Transportation</title>
+<meta name="description" content="Request non-emergency medical transportation from American Medical Transportation. Wheelchair, gurney, and ambulatory rides in the San Gabriel Valley and San Bernardino County.">
+<link rel="canonical" href="https://americanmedtrans.com/request-ride.html">
+<meta property="og:site_name" content="American Medical Transportation">
+<meta property="og:url" content="https://americanmedtrans.com/request-ride.html">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span>Serving the San Gabriel Valley &amp; San Bernardino County</span>
+    <span>Call us anytime: <a class="topbar-phone" href="tel:+18009900507">(800) 990-0507</a></span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">
+      <img src="images/amt-logo.png" alt="American Medical Transportation" class="brand-logo">
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="guarantee.html">On-Time Guarantee</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <div class="header-phone">
+        <small>Call Now</small>
+        <a href="tel:+18009900507">(800) 990-0507</a>
+      </div>
+      <a class="btn btn-primary" href="request-ride.html">Request a Ride</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-banner">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Request a Ride</div>
+    <h1>Request a Ride</h1>
+    <p>Fill out the form below and our team will confirm your ride. Need it sooner? Call us directly.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container request-layout">
+    <div>
+      <div class="confirm-box" id="form-confirm">
+        <strong>Thank you!</strong> Your ride request has been received. Our team will call you shortly to confirm the details. If your ride is urgent, please call us directly at <a href="tel:+18009900507">(800) 990-0507</a>.
+      </div>
+
+      <div class="form-card">
+        <h2 style="margin-bottom:6px;">Ride Request Form</h2>
+        <p style="margin-bottom:24px;">All fields marked <span style="color:#c0392b;">*</span> are required.</p>
+        <form id="ride-request-form" class="js-demo-form" data-confirm-target="form-confirm">
+          <div class="form-grid">
+            <div class="field">
+              <label>Full Name <span class="req">*</span></label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="field">
+              <label>Phone Number <span class="req">*</span></label>
+              <input type="tel" name="phone" required>
+            </div>
+            <div class="field full">
+              <label>Email Address</label>
+              <input type="email" name="email">
+            </div>
+            <div class="field full">
+              <label>Pickup Address <span class="req">*</span></label>
+              <input type="text" name="pickup" required>
+            </div>
+            <div class="field full">
+              <label>Drop-off Address <span class="req">*</span></label>
+              <input type="text" name="dropoff" required>
+            </div>
+            <div class="field">
+              <label>Date Needed <span class="req">*</span></label>
+              <input type="date" name="date" required>
+            </div>
+            <div class="field">
+              <label>Time Needed <span class="req">*</span></label>
+              <input type="time" name="time" required>
+            </div>
+            <div class="field">
+              <label>Type of Transport <span class="req">*</span></label>
+              <select name="transport_type" required>
+                <option value="">Select one</option>
+                <option value="ambulatory">Ambulatory</option>
+                <option value="wheelchair">Wheelchair</option>
+                <option value="gurney">Gurney / Stretcher</option>
+                <option value="event">Special Event</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>Trip Type</label>
+              <select name="trip_type">
+                <option value="one-way">One-way</option>
+                <option value="round-trip">Round-trip / Wait &amp; Return</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label>Additional Notes</label>
+              <textarea name="notes" rows="4" placeholder="Appointment time, mobility equipment, special instructions, etc."></textarea>
+            </div>
+          </div>
+          <p class="form-note">Submitting this form does not automatically confirm your ride. Our team will contact you by phone to confirm pickup details and availability.</p>
+          <div style="margin-top:20px;">
+            <button type="submit" class="btn btn-primary">Submit Ride Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <aside class="side-panel">
+      <div class="call-block">
+        <p>Need a ride today or have an urgent request?</p>
+        <a href="tel:+18009900507">(800) 990-0507</a>
+        <p>Call us directly and we'll help right away.</p>
+      </div>
+      <h3>What to Have Ready</h3>
+      <ul>
+        <li>Pickup and drop-off addresses</li>
+        <li>Appointment date and time</li>
+        <li>Any mobility equipment (wheelchair, gurney, walker)</li>
+        <li>Whether you need a round trip</li>
+      </ul>
+      <h3>Our Service Area</h3>
+      <ul>
+        <li>San Gabriel Valley</li>
+        <li>San Bernardino County</li>
+        <li>Expanding soon to greater Los Angeles</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <h4>American Medical Transportation</h4>
+      <p>Safe, on-time non-emergency medical transportation serving the San Gabriel Valley and San Bernardino County since 2013.</p>
+      <p class="footer-phone"><a href="tel:+18009900507" style="color:inherit;">(800) 990-0507</a></p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="guarantee.html">On-Time Guarantee</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="services.html#wheelchair">Wheelchair Transport</a></li>
+        <li><a href="services.html#gurney">Gurney &amp; Stretcher</a></li>
+        <li><a href="services.html#ambulatory">Ambulatory Transport</a></li>
+        <li><a href="services.html#events">Special Event Transport</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get a Ride</h4>
+      <ul>
+        <li><a href="request-ride.html">Request a Ride Online</a></li>
+        <li><a href="tel:+18009900507">Call (800) 990-0507</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 American Medical Transportation. All rights reserved.</span>
+    <span>Serving the San Gabriel Valley &amp; San Bernardino County</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
